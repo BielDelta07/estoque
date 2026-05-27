@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { EstoqueContext } from "../context/estoqueContext";
+import { EstoqueContext } from "../context/EstoqueContext";
 
 export default function FormProduto(){
     const { adicionarProduto } = useContext(EstoqueContext);
